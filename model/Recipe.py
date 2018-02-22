@@ -1,5 +1,6 @@
 class Recipe:
-	def __init__(self, name, servingSize, ingredients, cuisine, meal_type):
+	def __init__(self, id, name, servingSize, ingredients, cuisine, meal_type):
+		self.id = id
 		self.name = name
 		self.servingSize = servingSize
 		self.ingredients = ingredients
