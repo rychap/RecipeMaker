@@ -5,9 +5,15 @@ from Recipe import *
 from RecipeIngredient import *
 from RecipesSerialization import * 
 from Unit import *
-from PGDatabase import *
+from DatabaseManager import *
 from USDRParser import *
+from PGDatabase import *
 
 if __name__ == '__main__':
-	PGDatabase().getIngredientsFromSearchTerm("milk", 10)
+	# PGDatabase().dropTables()
+	# PGDatabase().create_all_tables()
+	# data = USDRParser().readFoodDescription()
+	# PGDatabase().insertFoodDescriptions(data)
+	results = DatabaseManager().fetchIngredientsFromSearch("milk", 10)
+	print(results)
 
