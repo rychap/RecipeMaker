@@ -20,7 +20,7 @@ class RecipesSerialization():
 				measurement = Measurement(unit, amount)
 				recipe_ingredient = RecipeIngredient(ingredient, measurement)
 				recipe_ingredients.append(recipe_ingredient)
-			recipe = Recipe(1, recipe["name"], recipe["num_servings"], recipe_ingredients, recipe["cuisine"], recipe["meal_type"])
+			recipe = Recipe(1, recipe["name"], recipe["num_servings"], recipe_ingredients, recipe["cuisine"], recipe["mealType"])
 			recipeList.append(recipe)
 		return recipeList
 		

@@ -1,1 +1,1 @@
-[{"num_servings": 10, "cuisine": "American", "meal_type": "dinner", "name": "dank_chicken", "ingredients": [["chicken", "pound", 0.5], ["mushroom", "ounce", 4]]}]
+[{"num_servings": 10, "cuisine": "American", "mealType": "dinner", "name": "dank_chicken", "ingredients": [["chicken", "pound", 0.5], ["mushroom", "ounce", 4]]}]
